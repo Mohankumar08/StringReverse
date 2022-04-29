@@ -6,7 +6,8 @@ public class StringReverse {
 
 	public static void main(String[] args) {
 		System.out.println("String Reverse");
-		String original, reverse = "";
+		String original; 
+		String reverse = "";
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter a string to reverse");
 		original = in.nextLine();
